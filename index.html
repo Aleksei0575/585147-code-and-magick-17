@@ -184,6 +184,7 @@
   var fireballSize = 22;
   var wizardSpeed = 3;
   var wizardWidth = 70;
+  
   //скорость фаербола
   var getFireballSpeed = function (left) {
     if (left === true) {
@@ -191,14 +192,17 @@
     }
     return 2;
   };
+
   //пропорциональная высота мага
   var getWizardHeight = function () {
     return 1.337 * wizardWidth;
   };
+
   //положение мага по горизонтали
   var getWizardX = function (width) {
     return (width - wizardWidth) / 2;
   };
+  
   //положение мага по вертикали
   var getWizardY = function (height) {
     return 1 / 3 * height;
@@ -206,7 +210,6 @@
 </script>
 
 <script src="js/stat.js"></script>
-
 <script src="js/game.js"></script>
 
 </body>
