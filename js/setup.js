@@ -31,7 +31,7 @@ var createWizard = function () {
 // Функция создания массива с волшебниками, здесь генерируются 4 волшебника
 var createWizards = function () {
   var arrayWizards = [];
-  var coatColor = [i];
+  var coatColor = [];
   for (var i = 0; i < 4; i++) {
     arrayWizards.push(createWizard(name, coatColor));
   }
